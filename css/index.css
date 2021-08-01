@@ -1,0 +1,176 @@
+
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+
+}
+nav{
+	position: fixed;
+}
+
+.principal{
+
+	background-image: url('../img/trapargento.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 -65%;
+
+	position: relative;
+	display: flex;
+	
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.principal:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0.7;
+}
+
+.principal h1{
+	position: relative;
+	font-size: 50px;
+	text-align: center;
+
+	color: white;
+	
+}
+.principal h4{
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+
+	color: yellow;
+	
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-size: 100%;
+	
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.container{
+	text-align: justify;
+	margin-top: 5%;
+	
+}
+.container h1{
+	margin-top: 10px;
+}
+
+.container img{
+	transition: 0.4s;
+	border-radius: 5px 5px 5px 5px;
+}
+.container #duki img:hover, #khea img:hover, #cro img:hover{
+	transform: scale(1.01);
+	box-shadow:5px 10px 20px black ;
+}
+.container #duki img:hover{
+	box-shadow:5px 10px 20px #5319D6 ;
+}
+.container #cro img:hover{
+	box-shadow: 5px 10px 20px #175075;
+}
+
+#cerreo h1{
+	text-align: right;
+}
+.linkk{
+	margin-top: 5%;
+    margin-left: 35%;
+    margin-right:35%;
+    text-align: center; 
+    
+}
+.linkk div{
+	background: transparent;
+	border:  1px red solid;
+    padding: 2%;
+    color:red;
+    margin: 0;
+    border-radius: 5px 5px 5px 5px;
+    transition: all 0.7s ease 0s;
+}
+.linkk:hover div{
+    background-color: red;
+    color: white;
+}
+.linkk a{
+	text-decoration: none;
+}
+
+
+/*CANVA*/
+canvas {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 7px solid rgba(255, 255, 255, .1);
+	border: 7px solid rgba(255, 255, 255, .1);
+  	box-shadow: 0px 0px 10px #00000038;
+	cursor: pointer;
+
+}
+#croo{
+	margin-top: -10%;
+}
+
+
+
+/*ETIQUETA*/
+.principal2{
+
+	background-image: url('../img/croduko.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+
+
+	position: relative;
+	display: flex;
+	
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.principal2:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0.7;
+}
+
+.principal2 h1{
+	position: relative;
+	font-size: 50px;
+	text-align: center;
+
+	color: white;
+	
+}
+.principal2 h4{
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+
+	color: yellow;
+	
+}
